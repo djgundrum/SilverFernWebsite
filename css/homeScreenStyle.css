@@ -32,3 +32,35 @@
     z-index: 1;
     display: block;
 }
+
+.bar_background {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../images/bar_backdrop.jpg");
+    height: 160px;
+}
+
+.fade_to_black {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1)
+    );
+}
+
+.bar_parallax_fade {
+    background: linear-gradient(rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1)),
+            url("../images/Silver Fern Painting.jpg") no-repeat fixed center,
+            black;
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+}
+
+.events_section {
+    background-color: black;
+    color: #ffffff;
+    height: 300px;
+}
